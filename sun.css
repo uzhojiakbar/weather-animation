@@ -1,0 +1,77 @@
+main {
+    /* background-image: linear-gradient(rgba(255, 166, 0, 0.47) 2%,
+            rgba(255, 166, 0, 0.47),
+            #739fa3,
+            #0000); */
+    background-image: linear-gradient(
+        #fffdfa,
+        #c1c9b1,
+        #6d7971,
+        #6d7971,
+        #6d7971
+    );
+    position: relative;
+}
+
+.card {
+    background-image:
+        linear-gradient(rgba(255, 166, 0, 0.60) 10%,
+            rgba(255, 255, 255, 0.000)),
+        url(./imgs2/5.png);
+    box-shadow:
+        0 0 70px rgba(255, 166, 0, 0.67),
+        0 0 40px rgba(255, 166, 0, 0.47),
+        0 0 180px rgba(255, 166, 0, 0.17)
+        ;
+}
+
+
+.fa-suns {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(252, 168, 13, 0.999);
+    border-radius: 50%;
+    box-shadow:
+        inset 0 0 10px rgb(243, 158, 0),
+        inset 0 0 20px rgb(243, 158, 0),
+        inset 0 0 30px rgb(243, 158, 0),
+        inset 0 0 40px rgb(243, 158, 0),
+        inset 0 0 50px rgb(243, 158, 0),
+        0 0 10px rgb(235, 173, 59),
+        0 0 15px rgb(235, 173, 59),
+        0 0 20px rgb(235, 173, 59),
+        0 0 25px rgb(235, 173, 59),
+        0 0 30px rgb(235, 173, 59),
+        0 0 35px rgb(235, 173, 59),
+        0 0 40px rgb(235, 173, 59),
+        0 0 50px rgb(235, 173, 59),
+        0 0 55px rgb(235, 173, 59),
+        0 0 60px rgb(235, 173, 59),
+        0 0 70px rgb(235, 173, 59),
+        0 0 80px rgb(235, 173, 59),
+        0 0 90px rgb(235, 173, 59),
+        0 0 100px rgb(255, 210, 128),
+        0 0 110px rgb(255, 210, 128),
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange,
+        0 0 1500px orange;
+    z-index: 0;
+    top: 40px;
+    left: 50px;
+    position: absolute;
+    animation: sunquyosh 2s 1;
+}
+
+@keyframes sunquyosh {
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 40px;
+    }
+}

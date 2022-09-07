@@ -1,0 +1,88 @@
+main {
+    background-image: linear-gradient(#fcfdfc 2%,
+            #689baa,
+            #739fa3,
+            #0000);
+}
+
+.card {
+    background-image:
+        linear-gradient(#689baab9,
+            #739fa37a),
+        url(./imgs2/5.png);
+}
+
+
+.ssomolyot {
+    z-index: 9;
+    position: absolute;
+    width: 150px;
+    animation: samolyot 10s infinite;
+    animation-delay: 2s;
+    left: 50px;
+       transition: all linear;
+    bottom: -500px;
+    left: 0;
+}
+
+@keyframes samolyot {
+    0% {
+        bottom: -400px;
+        left: 50px;
+        transform: rotate(0);
+    }
+
+    10% {
+        left: 900px;
+        bottom: 300px;
+        transform: rotate(0);
+    }
+
+    15% {
+        bottom: 600px;
+        transform: rotate(-280deg);
+    }
+
+    20% {
+        bottom: 800;
+        left: 100px;
+        transform: rotate(-280deg);
+    }
+
+    21% {
+        left: 200px;
+        bottom: 300px;
+        transform: rotate(-280deg);
+    }
+
+    22% {
+        left: 900px;
+        bottom: -500px;
+        transform: rotate(-360deg);
+    }
+    
+    
+    23%{
+        transform: rotate(-45deg);
+    }
+
+
+    50%{
+        left: 900px;
+        bottom:700px;
+        transform: rotate(-45deg);
+    }
+    51%{
+        transform: rotate(180deg);
+
+    }
+
+    55%{
+        left: 10px;
+        bottom: -400px;
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

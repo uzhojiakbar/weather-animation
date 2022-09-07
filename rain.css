@@ -1,0 +1,72 @@
+main {
+    background-color: grey;
+    background-image: linear-gradient(#ffffff,
+            #b8ccc6,
+            #3d6165,
+            #1b2f33);
+    position: relative;
+    animation: main 3s infinite;
+}
+
+.card {
+    background-image:
+        linear-gradient(#527378,
+            #c7dad615),
+        url(./imgs2/5.png);
+    box-shadow:
+        0 0 10px #1b2f33,
+        0 0 70px #1b2f33,
+        0 0 20px #1b2f33;
+
+}
+
+.fasun {
+    box-shadow:
+        0 0 10px rgba(255, 211, 128, 0.49),
+        0 0 20px rgba(255, 211, 128, 0.511),
+        0 0 30px rgba(255, 211, 128, 0.511),
+        0 0 40px rgba(255, 211, 128, 0.511),
+        0 0 50px rgba(255, 211, 128, 0.511),
+        0 0 60px rgba(255, 211, 128, 0.511);
+}
+
+.clouds {
+    animation: clouds_out 1.5s 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+.cloud-rain {
+    position: absolute;
+    top: -250px;
+    z-index: 1;
+}
+
+
+
+/*  */
+
+.rain__item {}
+
+.rain_item {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./imgs2/rain/21.png);
+    position: absolute;
+    animation: rain_rain .5s infinite linear;
+    z-index: 0;
+    top: 0;
+}
+
+.card {}
+
+@keyframes rain_rain {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 20% 100%;
+    }
+}
